@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Javascript Calculator</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="This is a Free Code Camp Project called Javascript Calculator" />
+    <meta name="keywords" content="HTML, CSS, JAVASCRIPT/JQUERY" />
+    <meta name="author" content="Edward Njoroge" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row center-block">
+        <div class="col-xs-12" id="title">
+          <!--Title-->
+          <h3 class="text-center" id="name">Javascript Calculator</h3>
+        </div>
+      </div>
+      <!--screen-->
+      <div class="row center-block">
+        <div class="input-group col-xs-12" id="screen">
+          <input class="form-control" type="text" />
+        </div>
+      </div>
+      <!--Buttons-->
+      <div class="row buttons">
+        <div class="col-xs-3">
+          <button class="btn btn-danger center-block" id="on-off">AC</button>
+        </div>
+        <div class="col-xs-3">
+          <button class="btn btn-danger center-block null" id="cancel">CE</button>
+        </div>
+        <div class="col-xs-3">
+          <button class="btn btn-danger center-block null" id="delete">DEL</button>
+        </div>
+        <div class="col-xs-3">
+          <button class="btn btn-info center-block null" id="*">*</button>
+        </div>
+      </div>
+      <div class="row buttons">
+        <div class="col-xs-3">
+          <button class="btn digits nums center-block null" id="7">7</button>
+        </div>
+        <div class="col-xs-3">
+          <button class="btn digits nums center-block null" id="8">8</button>
+        </div>
+        <div class="col-xs-3">
+          <button class="btn digits nums center-block null" id="9">9</button>
+        </div>
+        <div class="col-xs-3">
+          <button class="btn btn-info center-block null" id="-">-</button>
+        </div>
+      </div>
+      <div class="row buttons">
+        <div class="col-xs-3">
+          <button class="btn digits nums center-block null" id="4">4</button>
+        </div>
+        <div class="col-xs-3">
+          <button class="btn digits nums center-block null" id="5">5</button>
+        </div>
+        <div class="col-xs-3">
+          <button class="btn digits nums center-block null" id="6">6</button>
+        </div>
+        <div class="col-xs-3">
+          <button class="btn btn-info center-block null" id="+">+</button>
+        </div>
+      </div>
+      <div class="row buttons">
+        <div class="col-xs-3">
+          <button class="btn digits nums center-block null" id="1">1</button>
+        </div>
+        <div class="col-xs-3">
+          <button class="btn digits nums center-block null" id="2">2</button>
+        </div>
+        <div class="col-xs-3">
+          <button class="nums btn digits center-block null" id="3">3</button>
+        </div>
+        <div class="col-xs-3">
+          <button class="btn btn-info center-block null" id="/">/</button>
+        </div>
+      </div>
+      <div class="row buttons">
+        <div class="col-xs-3">
+          <button class="btn digits nums center-block null" id="0">0</button>
+        </div>
+        <div class="col-xs-3">
+          <button class="btn digits nums center-block null" id=".">.</button>
+        </div>
+        <div class="col-xs-6">
+          <button class="btn btn-info btn-block center-block null" id="equal">=</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

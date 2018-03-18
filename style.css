@@ -1,0 +1,42 @@
+body {
+  background-color: black;
+  height: 100%;
+  color: white;
+}
+.container {
+  background-color: gray;
+  border-radius: 5%;
+  max-width: 300px;
+  display: block;
+  position: absolute;
+  margin: 0 auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#name {
+  font-size: 20px;
+  font-family: cursive;
+  border-radius: 5%;
+}
+#screen {
+  margin: 10px auto 10px auto;
+  height: 40px;
+  border-radius: 5%;
+}
+.buttons {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+button {
+  min-width: 45px;
+}
+
+.nums {
+  background-color: chartreuse;
+}
+
+input {
+  text-align: right;
+}
